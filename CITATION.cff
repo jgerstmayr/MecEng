@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "MecEng: Benchmarking LLMs' Capabilities in Generating Rigid and Flexible Multibody Simulation Code"
+type: software
+authors:
+  - given-names: Johannes
+    family-names: Gerstmayr
+    email: johannes.gerstmayr@uibk.ac.at
+    affiliation: "Department of Mechatronics, University of Innsbruck"
+  - given-names: Sebastian
+    family-names: Weyrer
+    affiliation: "Department of Mechatronics, University of Innsbruck"
+  - given-names: Tobias
+    family-names: Möltner
+    affiliation: "Department of Mechatronics, University of Innsbruck"
+  - given-names: Peter
+    family-names: Manzl
+    affiliation: "Institute of Materials Resource Management (MRM), University of Augsburg"
+  - given-names: Michael
+    family-names: Pieber
+    affiliation: "Department of Mechatronics, University of Innsbruck"
+repository-code: "https://github.com/jgerstmayr/MecEng"
+license: BSD-3-Clause
+keywords:
+  - large language models
+  - multibody dynamics
+  - flexible multibody systems
+  - Exudyn
+  - benchmark
+preferred-citation:
+  type: article
+  title: "Large Language Models and their Awareness of Mechanics and Spatial Geometry"
+  authors:
+    - given-names: Johannes
+      family-names: Gerstmayr
+    - given-names: Sebastian
+      family-names: Weyrer
+    - given-names: Tobias
+      family-names: Möltner
+    - given-names: Peter
+      family-names: Manzl
+    - given-names: Michael
+      family-names: Pieber
+  journal: "Computer Methods in Applied Mechanics and Engineering"
+  notes: "Submitted manuscript (first revision)"

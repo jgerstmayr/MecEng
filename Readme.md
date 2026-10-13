@@ -154,6 +154,24 @@ All results can be regenerated for the published tasks with the scripts above.
   The part scripts (e.g. `windTurbineTowerPart.py`, `crankPartAdvanced.py`) write `.npz` files that are loaded by the assembly scripts (`level3bTaskExample.py`, `flexibleSliderCrankAdvanced3.py`);
   `rotorInBearingBlock.py` loads `bearingBlockPart.npz` and `unbalancedRotorPart.npz`, which are written by running the corresponding sample files in `src/flexu/sampleFiles` and copying them into `misc/visualization`.
 
+## Authors
+
+* Johannes Gerstmayr (Department of Mechatronics, University of Innsbruck), corresponding author: johannes.gerstmayr@uibk.ac.at
+* Sebastian Weyrer (Department of Mechatronics, University of Innsbruck)
+* Tobias Möltner (Department of Mechatronics, University of Innsbruck)
+* Peter Manzl (Institute of Materials Resource Management, University of Augsburg)
+* Michael Pieber (Department of Mechatronics, University of Innsbruck)
+
+## Citation
+
+If you use this code, please cite the paper (citation metadata in `CITATION.cff`):
+
+```
+J. Gerstmayr, S. Weyrer, T. Möltner, P. Manzl, M. Pieber:
+Large Language Models and their Awareness of Mechanics and Spatial Geometry.
+Computer Methods in Applied Mechanics and Engineering (submitted).
+```
+
 ## License
 
 See the headers of the source files and `LICENSE`.
