@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# results of test runs and extracted result archives (published separately, see Readme.md)
+results/
+*.zip
+
+# temporary files created during the tests
+src/solution/
+src/_global*TokenCount.txt*
+logsTrash/
+*.npz
+
+# generated paper tables and figures
+misc/paperOutput/

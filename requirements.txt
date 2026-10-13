@@ -1,0 +1,23 @@
+# required packages (the paper results were computed with the development version exudyn 1.10.160.dev1
+# and the Ollama server 0.24.0; the public release exudyn 1.11.0 works)
+exudyn>=1.11.0
+numpy
+scipy
+networkx
+matplotlib
+ngsolve
+pymeshlab
+ollama
+
+# post-processing scripts in misc/
+pandas
+openpyxl
+
+# optional, depending on the LLM backend (install manually):
+# anthropic                                  # Claude API models
+# requests                                   # Academic AI (OpenAI-compatible) API
+# torch, transformers, accelerate, bitsandbytes  # Hugging Face backend (install torch for your CUDA version, see pytorch.org)
+# vllm, gpt4all, llama-cpp-python            # further backends
+
+# versions tested on Windows with RTX 5090:
+# exudyn==1.10.160.dev1, numpy==2.4.6, networkx==3.6.1, ngsolve==6.2.2604, pymeshlab==2025.7.post1, scipy==2.1.2, ollama==0.6.2
