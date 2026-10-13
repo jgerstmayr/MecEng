@@ -164,7 +164,7 @@ All results can be regenerated for the published tasks with the scripts above.
 
 ## Citation
 
-If you use this code, please cite the paper (citation metadata in `CITATION.cff`):
+If you use this code, please cite the paper:
 
 ```
 J. Gerstmayr, S. Weyrer, T. Möltner, P. Manzl, M. Pieber:
