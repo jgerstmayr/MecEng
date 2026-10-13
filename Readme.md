@@ -156,4 +156,4 @@ All results can be regenerated for the published tasks with the scripts above.
 
 ## License
 
-BSD-3 license, see the headers of the source files.
+See the headers of the source files and `LICENSE`.
